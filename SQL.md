@@ -1,6 +1,14 @@
--- Criar uma Tabela
+# 📘 SQL – Anotações de Estudo
 
-Create table work(nome, email, funcao, salario);
+## Criar uma Tabela
+
+create table work (
+  nome VARCHAR(50),
+  email VARCHAR(100),
+  funcao VARCHAR(50),
+  salario DECIMAL(10,2)
+);
+
 
 -- Inserir dados em uma tabela
 
